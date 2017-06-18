@@ -16,7 +16,7 @@ public class IndexController {
     @RequestMapping("/")
     public ModelAndView index() {
         log.info("=================");
-        ModelAndView result = new ModelAndView("index");
+        ModelAndView result = new ModelAndView("home");
         return result;
     }
 }
